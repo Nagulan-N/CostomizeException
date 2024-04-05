@@ -53,6 +53,9 @@ public class CustomizedException {
 			switch (projectNo) {
 
 			case 1:
+				
+				System.out.println("Please Roll No.");
+				
 				while (true) {
 					rollNo = myScnner.nextLine();
 					if (!rollNo.isEmpty()) {
